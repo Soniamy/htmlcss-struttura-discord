@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .container{
+    height: 50px;
+}
+header .first-row{
+    background-color: rgb(130, 222, 243);
+    min-width: 100%;
+}
+header .first-row .box{
+   height: 30px;
+   background-color: orange;
+   border: 1px dashed black;
+ 
+}
+
+header .small{
+   width: 200px;
+  }
+  header .small:last-child{
+    text-align:end;
+  }
+  header .large{
+    width: 400px;
+    text-align: center;
+  }
+  .second-row{
+    background-color: rgb(23, 23, 161);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .second-row .box{
+    height: 300px;
+    width: 600px;
+   background-color: fuchsia;
+   border: 1px dashed black;
+  }
+
+
+
