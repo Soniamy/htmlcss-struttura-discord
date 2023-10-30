@@ -40,11 +40,26 @@ header .small{
     align-items: center;
   }
   .second-row .box{
-    height: 300px;
-    width: 600px;
+   height: 300px;
+   width: 600px;
    background-color: fuchsia;
    border: 1px dashed black;
   }
+  main .container{
+    height: 400px;
+  }
+.third-row .left-box{
+    background-color: rgb(56, 145, 234);
+    height: 300px;
+    width: 500px;
+    border: 1px dashed black;
+}
 
+.third-row .right-box{
+    background-color: pink;
+    border: 1px dashed black;
+    height: 300px;
+    width: 300px;
+}
 
 
