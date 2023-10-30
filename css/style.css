@@ -61,5 +61,17 @@ header .small{
     height: 300px;
     width: 300px;
 }
-
-
+.third-row.reversed .container{
+    flex-direction: row-reverse;
+    background-color: lightgrey;
+}
+.fourth-row .container{
+    background-color: lightgrey;
+    height: 700px;
+}
+.fourth-row .big-box{
+    background-color:rgb(45, 112, 45);
+    height: 600px;
+    width: 800px;
+    border: 1px dashed black;
+}
